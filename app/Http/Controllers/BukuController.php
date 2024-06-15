@@ -39,7 +39,7 @@ class BukuController extends Controller
     }
 
      //method untuk hapus data buku
-     public function bukuhapus($id_buku)
+    public function bukuhapus($id_buku)
      {
          $databuku=BukuModel::find($id_buku);
          $databuku->delete();
